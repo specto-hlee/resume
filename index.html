@@ -3,39 +3,198 @@
 <head>
     <title>Resume of Hyunsoo Lee</title>
     <meta charset="utf-8">
+    <style>
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+        
+        img {
+            width: 15%;
+            border-radius: 100%;
+        }
+        
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .contact {
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        h2 {
+            font-size: 36px;
+            padding: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border-bottom: 2px black solid;
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .activity {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            margin-top: 12px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-style: italic;
+            font-weight: bold;
+            padding-left: 10px;
+            margin-left: 10px;
+        }
+
+        .period {
+            font-size: 18px;
+            text-align: right;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+
+        ul {
+            font-size: 18px;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        li {
+            margin-left: 15px;
+            margin-bottom: 6px;
+        }
+
+        .itemList {
+            font-size: 18px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .others {
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            margin-top: 12px;
+        }
+
+        .item, .detail{
+            font-size: 18px;
+        }
+
+        .itemList {
+            font-size: 18px;
+        }
+
+        .detailList {
+            list-style: none;
+            font-size: 18px;
+        }
+
+        .bottm {
+            height: 50px;
+        }
+    </style>
 </head>
 <body>
     <br>
-    <div style="text-align: center;">
-        <img src="Memoji.jpeg" width="30%">
+    <div class="image">
+        <img src="Memoji.jpeg">
     </div>
-    <h1 style="text-align: center;">Hyunsoo Lee</h1>
-    <p style="text-align: center;">Phone: + 82 10-8916-7544 | Email: hyunsoo.leee@gmail.com</p>
+    <h1>Hyunsoo Lee</h1>
+    <p class="contact">Phone: + 82 10-8916-7544 | Email: hyunsoo.leee@gmail.com</p>
     <br>
     <h2>Education</h2>
-    <hr>
-    <ul>
-        <li>Yonsei University</li>
-        <li>University of California, Santa Barbara</li>
-    </ul>
-    <br>
+    <div class="activity">
+        <div class="title">Yonsei University, Seoul</div>
+        <div class="period">Mar. 2009 ~ Aug. 2017</div>
+    </div>
+    <p>
+        <ul>
+            <li>Major: Industrial engineering (3.75/4.0) | Awarded academic scholarship twice</li>
+            <li>Courses: Management information system, Accounting, Advanced statistics, etc.</li>
+        </ul>
+    </p>
+    <div class="activity">
+        <div class="title">University of California, Santa Barbara</div>
+        <div class="period">Sep. 2014 ~ Jun. 2015</div>
+    </div>
+    <p>
+        <ul>
+            <li>Major: Statistics</li>
+            <li>Courses: Computer science 101, Italian, etc.</li>
+        </ul>
+    </p>
     <h2>Work experience</h2>
-    <hr>
-    <ul>
-        <li>Specto Labs, Founder & CEO - Consumer IT startup focusing on social sector</li>
-        <li>DoctorNow, Business Strategist - Korea's largest telemedicine startup</li>
-        <li>FastForward, Business Lead - Fintech startup</li>
-        <li>Bain&Company, Consultant - Global top-tier management consulting firm</li>
-    </ul>
-    <br>
+    <div class="activity">
+        <div class="title">Specto Labs, Founder & CEO - Consumer IT startup focusing on social sector</div>
+        <div class="period">Sep. 2023 ~ Present</div>
+    </div>
+    <p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+        </ul>
+    </p>
+    <div class="activity">
+        <div class="title">DoctorNow, Business Strategist - Korea's Largest telemedicine startup</div>
+        <div class="period">Jul. 2022 ~ Apr. 2023</div>
+    </div>
+    <p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+        </ul>
+    </p>
+    <div class="activity">
+        <div class="title">FastForward, Business Lead - Fintech startup</div>
+        <div class="period">Aug. 2021 ~ Jul. 2022</div>
+    </div>
+    <p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+        </ul>
+    </p>
+    <div class="activity">
+        <div class="title">Bain&Company, Consultant</div>
+        <div class="period">Jan. 2019 ~ Jul. 2021</div>
+    </div>
+    <p>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+        </ul>
+    </p>
     <h2>Other information</h2>
-    <hr>
-    <ul>
-        <li>Language - Native in Korean, Business fluent in English</li>
-        <li>Computer - Proficient in MS Office, Keynote</li>
-        <li>Interests - Music, Gourment, Coffee</li>
-    </ul>
-    
+    <div class="others">
+        <div class="item">
+            <ul class="itemList">
+                <li>Language</li>
+                <li>Computer</li>
+                <li>Interests</li>
+            </ul>    
+        </div>
+        <div class="detail">
+            <ul class="detailList">
+                <li>Native in Korean, Business fluent in English</li>
+                <li>HTML, CSS, Github, Keynote, MS Office</li>
+                <li>Music, Gourmet, Coffee, Fashion</li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
